@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/brinquedo-livro.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <header>
+     
+      <ul>
+        <li>
+          <button
+            onclick="window.location.href='index.html';"
+            class="btn-header"
+            style="border-radius: 40px 0px 0px 5px"
+          >
+            Home
+          </button>
+        </li>
+        <li>
+          <button
+            onclick="window.location.href='brinquedo.html';"
+            class="btn-header"
+            style="border-radius: 0px 5px 40px 0px"
+          >
+            Brinquedos
+          </button>
+        </li>
+      </ul>
+      <!---------------------------
+              Logo do site
+      ---------------------------->
+      <img
+        src="img/logo.jpg"
+        alt="Logo"
+        class="icon"
+      />
+      <!-----------------------------------
+      div de botões do lado Esquerdo do site
+      ------------------------------------->
+      <ul>
+        <li>
+          <button
+            onclick="window.location.href='livro.html';"
+            class="btn-header"
+            style="border-radius: 40px 0px 0px 5px"
+          >
+            Livros
+          </button>
+        </li>
+        <li>
+          <button
+            onclick="window.location.href='swee.html';"
+            class="btn-header"
+            style="border-radius: 0px 5px 40px 0px"
+          >
+            SWEE
+          </button>
+        </li>
+      </ul>
+    </header>
+    
+    <main>
+      <section>
+       
+        <div
+          style="
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            background-color: #ae86c5;
+          "
+        >
+          <div class="categoria-selector">
+            <label>
+              <input type="checkbox" class="check-card" value="cat1" />
+              <div class="card">
+                <span class="check-card-text"><h2>Ciência e Ecologia</h2></span>
+              </div>
+            </label>
+            <label>
+              <input type="checkbox" class="check-card" value="cat2" />
+              <div class="card">
+                <span class="check-card-text"><h2>química</h2></span>
+              </div>
+            </label>
+            <label>
+              <input type="checkbox" class="check-card" value="cat3" />
+              <div class="card">
+                <span class="check-card-text"
+                  ><h2>Matemática e Geometria</h2></span
+                >
+              </div>
+            </label>
+            <label>
+              <input type="checkbox" class="check-card" value="cat4" />
+              <div class="card">
+                <span class="check-card-text"
+                  ><h2>Tecnologia e Robótica</h2></span
+                >
+              </div>
+            </label>
+            <label>
+              <input type="checkbox" class="check-card" value="cat5" />
+              <div class="card">
+                <span class="check-card-text"
+                  ><h2>Espaço e Astronomia</h2></span
+                >
+              </div>
+            </label>
+          </div>
+        </div>
+      </section>
+     
+      <section>
+        <div class="show-categorias cat1">
+          <h2>Ciência e Ecologia</h2>
+          <div class="shop-container">
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/cientificos-e-robotica/experiencias/ciencia-da-levitacao-kit-magnetico-anti-gravidade-4m'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/ciencia_da_levitacao_kit_magnetico_anti_gravidade_4m_1881_1_10c173f213933d5222825a1f84044204.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Ciência da Levitação</h3>
+              <p>
+                Faça um lápis flutuar no ar, crie um transportador pessoal
+                usando o princípio do trem maglev, construa uma escultura de
+                metal que desafia a gravidade, um girador flutuante que balança
+                de forma imprevisível e muito mais.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/area-de-aprendizado/ciencia-e-ecologia/laboratorio-de-ciencias-premium'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/laboratorio_de_ciencias_premium_5848_1_60286e4764f1f8f80258f3b70e8ebd6f.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Laboratório de Ciências Premium</h3>
+              <p>
+                Os jovens cientistas vão adorar este novo Laboratório de
+                Ciências da Learning Resources! Eles podem seguir as instruções
+                passo a passo nos cartões de atividades incluídos e registrar
+                suas descobertas no caderno de escrever e apagar.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/area-de-aprendizado/ciencia-e-ecologia/meu-primero-microscopio'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/meu_primero_microscopio_5844_1_fe3953e1e4a77a545f0c1b9dfe19c031.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Meu Primeiro Microscópio</h3>
+              <p>
+                Faça com que as crianças descubram e explorem com uma ferramenta
+                científica projetada para as mãozinhas pequenas! Com ampliação
+                simples de 20x e botão de foco, é ideal para familiarizar os
+                pequenos com a experiência de usar um microscópio. O visor se
+                desencaixa para descobertas em qualquer lugar!
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/cientificos-e-robotica/experiencias/ciencia-do-clima-experiencias'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/ciencia_do_clima_experiencias_4m_1879_5_f6010dc500fc45abe1a42442f4ef08c6.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Ciência do Clima</h3>
+              <p>
+                Faça experiências com eletricidade estática, produza um raio,
+                faça nuvens na palma da mão, construa um modelo de ciclo da
+                água, veja as correntes de ar que produzem vento e estude o
+                efeito estufa e chuva ácida. Essas atividades vão ajudar você a
+                entender como funciona o nosso clima.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/educativos/ciencia-da-agua-pura-4m'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/ciencia_da_agua_pura_4m_1403_1_53aad1bdf7e95bfcfdcc2aaf4cf566ac.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Ciência da Água Pura</h3>
+              <p>
+                Perfeito para jovens entusiastas da ciência, esses experimentos
+                expandem o conhecimento de seu filho em química e meio ambiente.
+                Instruções detalhadas para cada experimento e fatos científicos
+                divertidos estão incluídos.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="show-categorias cat2">
+          <h2>química</h2>
+          <div class="shop-container">
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/cientificos-e-robotica/ciencias/flashcards-kit-tabela-periodica'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/flashcards_kit_tabela_periodica_3515_1_c3f724d5353f740b2003c4f5693d0759_20211110184216.png"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Flashcards Kit Tabela Periódica</h3>
+              <p>
+                Aprender com flashcards é rápido, fácil e divertido, isto ocorre
+                por causa da sua proposta lúdica, você pode brincar de várias
+                maneiras, é só soltar a criatividade e não parar de se divertir,
+                quer dizer, de aprender.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/educativos/steam-quimica-lab'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/steam_quimica_lab_81_1_20211110180847.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>STEAM - Química Lab</h3>
+              <p>
+                O brinquedo educativo Química Lab da linha Steam é um
+                laboratório para brincar com a química de forma divertida, com
+                motivação e experiências inovadoras. Utiliza substâncias de uso
+                comum para realizar as experiências.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjtjOvExq-JAxVcQkgAHagrCv8YABAbGgJjZQ&co=1&ase=2&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sKP2lNA9aN6sKcN214si2Fubhi5UxWwzLRhcoPoBui43ziXUQ-Lx4xoCi5cQAvD_BwE&ohost=www.google.com&cid=CAESVuD2QbpR0R8ICuDtqmBd2Sr_isHnCwJer30LeaT68nIm0fRcM7odiyIxLhDnHLxrnmEz7AcPcp9pOdPWX1yOyeSzZe2bVcCrD31ZrRDbNBRx_Rod90My&sig=AOD64_10KgjbW_uOFgSkPi1aMx6KzVFGFw&ctype=5&q=&nis=4&ved=2ahUKEwjzs-bExq-JAxWIrZUCHQ62AFgQ9aACKAB6BQgFEIMB&adurl='"
+            >
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_817579-MLB48761663768_012022-O.webp"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Kit De Microscópio Para Iniciantes</h3>
+              <p>
+                Microscópio educacional laboratorial. Ideal para escolas
+                primárias e de ensino fundamental, para observações de amostras
+                biológicas.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://produto.mercadolivre.com.br/MLB-2171699370-jogo-educativo-laboratorio-quimica-nig-brinquedos-ref-1633-_JM#polycard_client=search-nordic&position=4&search_layout=grid&type=item&tracking_id=3c99e327-5d76-4dc2-98c0-d90b4b42cc60'"
+            >
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_740521-MLB49062092235_022022-O.webp"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Jogo Educativo Laboratório Química</h3>
+              <p>
+                1 copinho plástico transparente, 1 conta-gotas (pipeta), 2
+                canudos plástico, 2 bexigas, 4 tubos de ensaio plásticos, 1
+                estante para tubos em EVA, 1 funil, 40 fichas de experiências,
+                10 frascos com soluções químicas, 2 frascos vazios.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://produto.mercadolivre.com.br/MLB-1783709818-brinquedo-infantil-show-de-experincias-nig-_JM#polycard_client=search-nordic&position=10&search_layout=grid&type=item&tracking_id=c1295d42-261f-487a-96be-de947ba6efd7'"
+            >
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_915578-MLB47724588306_102021-O.webp"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Show De Experiências</h3>
+              <p>
+                Torne-se um verdadeiro cientista com o Show de Experiências da
+                Nig. Pegue seu material de laboratório, siga as instruções,
+                misture as substâncias e faça as mais impressionantes
+                experiências!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="show-categorias cat3">
+          <h2>Matemática e Geometria</h2>
+          <div class="shop-container">
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/area-de-aprendizado/matematica-e-geometria/steam-quebra-cabeca-brincando-de-matematica'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/steam_quebra_cabeca_brincando_de_matematica_6010_1_b8deaff4aeaa2bd05ebe2ab733273506.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Steam Quebra</h3>
+              <p>
+                Este brinquedo auxilia no desenvolvimento do pensamento lógico,
+                da coordenação motora, na noção de espaço, no equilíbrio e nas
+                cores. Além disso, proporciona o aprendizado de operações
+                matemáticas simples e a associação de números e quantidades de
+                forma lúdica e divertida.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/area-de-aprendizado/matematica-e-geometria/abaco-50-unidades'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/abaco_50_unidades_5902_1_1ef1eee559da4099ef74493080739072.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Ábaco</h3>
+              <p>
+                O ábaco é uma das ferramentas de cálculo mais antigas, com
+                origens que remontam a cerca de 5.000 anos. Ele surgiu na
+                Mesopotâmia, onde as pessoas usavam pedras ou grãos em
+                superfícies para realizar operações aritméticas.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/brinquedos/educativos/jogo-educativo-bingo-dos-calculos'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/jogo_educativo_bingo_dos_calculos_5770_1_beb91f83d8ba3bc5d8874a6a19de805f.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Bingo dos Cálculos</h3>
+              <p>
+                Com o Bingo dos Cálculos a criança aprende matemática se
+                divertindo. É preciso encontrar o cálculo com a resposta
+                sorteada.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/brinquedos/educativos/cartas-educativas-fracoes'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/cartas_educativas_fracoes_5766_1_dae11ad65e4a8c47ed785d683fea36b8.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Cartas Educativas - frações</h3>
+              <p>
+                Este jogo é uma excelente ferramenta para auxiliar no
+                aprendizado de frações. O objetivo é descobrir qual fração
+                representa a figura em destaque e marcá-la com uma ficha
+                colorida.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/area-de-aprendizado/recurso-terapeutico/cartas-educativas-subtracao'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/cartas_educativas_subtracao_5532_1_a2126cd25d571b2f572bf0c80212a0d8.png"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Cartas Educativas - subtração</h3>
+              <p>
+                Neste jogo, as crianças são introduzidas aos conceitos iniciais
+                de subtração, desafiadas a encontrar cartas que correspondam ao
+                resultado da carta selecionada. Além disso, pode ser
+                transformado em um jogo de memória estimulante.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/area-de-aprendizado/recurso-terapeutico/cartas-educativas-adicao'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/cartas_educativas_adicao_5530_1_bc85e15afe260c9db0b383c11b9c1d12.png"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Cartas Educativas - Adição</h3>
+              <p>
+                Neste jogo, as crianças são introduzidas aos conceitos iniciais
+                de adição, desafiadas a encontrar cartas que correspondam ao
+                resultado da carta selecionada. Além disso, pode ser
+                transformado em um jogo de memória estimulante.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/brinquedos/cientificos-e-robotica/kits-praticos/steam-balanca-pesos-e-numeros'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/steam_balanca_pesos_e_numeros_4151_1_af7b6201cbe631fc6e1c8d9677699834_20211110181154.jpeg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Balança Pesos e Números</h3>
+              <p>
+                Com o brinquedo da linha Steam Balança de Números da Xalingo
+                Brinquedos a criança pode fazer seus próprios e incríveis
+                experimentos descobrindo o peso das coisas.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/montar/magneticos/magstix-barras-magneticas-com-esferas-20-pecas-fosforescentes-brilha-no-escuro'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/magstix_barras_magneticas_com_esferas_20_pecas_fosforescentes_brilha_no_escuro_5716_1_fb6f8aaefd41dbb97c7cb36ee72df094.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Barras Magnéticas com esferas</h3>
+              <p>
+                O Magstix é um kit de brinquedo magnético divertido e educativo,
+                ideal para todas as idades. Contém 20 peças, incluindo barras e
+                esferas magnéticas. As barras brilham no escuro, criando um
+                efeito visual atraente.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/montar/geometricos/desafio-edulig-criativo-puzzle-3d-dino'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/desafio_edulig_criativo_puzzle_3d_dino_3377_1_6d86ca683a427dffb054e3973c2320b9_20211110184346.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Puzzle 3D - Dino</h3>
+              <p>
+                As peças rígidas e conexões flexíveis, únicas no mercado,
+                permitem a criação de muitas e muitas formas geométricas de
+                acordo com o interesse e conhecimento do seu filho. Uma hora
+                pode ser um cubo e depois um cubo dentro de outro cubo! E assim
+                por diante...
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/construcaomontar/geometricos/desafio-edulig-criativo-puzzle-3d-aviao'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/desafio_edulig_criativo_puzzle_3d_aviao_2471_1_6b67a48e6630aeef4bce7593b140180d.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Puzzle 3D - Avião</h3>
+              <p>
+                Edulig Avião é uma forma desafiante de um avião diferente e com
+                35 cm de comprimento. Com as 93 peças rígidas e conexões
+                flexíveis do Edulig Avião, você pode montar muitas outras formas
+                com a sua criatividade.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/construcaomontar/geometricos/desafio-edulig-criativo-puzzle-3d-foguete'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/desafio_edulig_criativo_puzzle_3d_foguete_2469_1_20211110184341.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Puzzle 3D - Foguete</h3>
+              <p>
+                As peças rígidas e conexões flexíveis, únicas no mercado,
+                permitem a criação de muitas e muitas formas geométricas de
+                acordo com o interesse e conhecimento do seu filho. Uma hora
+                pode ser um cubo e depois um cubo dentro de outro cubo! E assim
+                por diante...
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/categorias/construcaomontar/geometricos/desafio-edulig-criativo-puzzle-3d-varetas-10'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/desafio_edulig_criativo_puzzle_3d_varetas_10_2225_1_20211110184334.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Puzzle 3D - Varetas 10</h3>
+              <p>
+                Utilizando as varetas, triângulos e conexões, monte 10 formas
+                incríveis e depois crie novas montagens, utilizando imaginação e
+                criatividade. Pela sua quantidade e variedade de peças e
+                conexões este kit é indicado pra quem vai criar muitas outras
+                formas.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/categorias/primeiros-brinquedos/jogos/domino-divisao'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/domino_divisao_2173_1_20211110181223.jpeg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Dominó Divisão</h3>
+              <p>
+                Possui 28 peças me madeira super resistente, auxilia no
+                desenvolvimento intelectual e no aprendizado infantil através do
+                processo de associação de imagens e operações matemáticas
+                simples.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/categorias/primeiros-brinquedos/jogos/domino-adicao'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/domino_adicao_2171_1_20211110181221.jpeg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Dominó Adição</h3>
+              <p>
+                Possui 28 peças me madeira super resistente, auxilia no
+                desenvolvimento intelectual e no aprendizado infantil através do
+                processo de associação de imagens e operações matemáticas
+                simples.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/educativos/edulig-criativo-puzzle-3d-bola-10-90-pecas-e-conexoes'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/edulig_criativo_puzzle_3d_bola_10_90_pecas_e_conexoes_51_1_20211110184322.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Puzzle 3D - Bola 10 Grande</h3>
+              <p>
+                Uma linda esfera formada por pentágonos e triângulos com 37 cm
+                de diâmetro. Puro desafio e uma aula de geometria. Estimula e
+                desenvolve raciocínio espacial, coordenação motora e é muito
+                divertido!
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/educativos/edulig-criativo-puzzle-3d-bola-5-90-pecas-e-conexoes'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/edulig_criativo_puzzle_3d_bola_5_90_pecas_e_conexoes_125_2_20211110184328.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Puzzle 3D - Bola 5 Média</h3>
+              <p>
+                As peças rígidas e conexões flexíveis, únicas no mercado,
+                permitem a criação de muitas e muitas formas geométricas de
+                acordo com o interesse e conhecimento do seu filho. Uma hora
+                pode ser um cubo e depois um cubo dentro de outro cubo! E assim
+                por diante...
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.amazon.com.br/Adoleta-Jogos-ADO0009-Pit%C3%A1goras/dp/B0D9KVZD7Q?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1ZZFT5FULY4LN'"
+            >
+              <img
+                src="https://m.media-amazon.com/images/I/71GNGm0OQ3L._AC_SX569_.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Pitágoras (Adoleta Jogos)</h3>
+              <p>
+                Com uma dinâmica simples e viciante, os jogadores devem usar seu
+                conhecimento matemático para combinar as cartas viradas para
+                cima e obter o mesmo resultado dos dados lançados. Use os
+                operadores matemáticos de adição, subtração, multiplicação e
+                divisão para criar as combinações perfeitas e conquistar as
+                cartas.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjxgOKsx6-JAxW8VEgAHSEVDF0YABAoGgJjZQ&co=1&ase=2&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sEsmE73oVcfBavMKoHum6d7Yohu2iPJ8bjpbopxXvJxRKt9LcfCg2hoCTz4QAvD_BwE&ohost=www.google.com&cid=CAESVuD2ayRXlLsFl8NBe-D64z5T6Th5Nj4IpY4l42BkUDbaMzl5a_Ef3cR4Ha8M6CNNEG3RKXVF5eiClE2e8trgNQmI1IOWHwaSi8L-jS49-9DuCeG32rqF&sig=AOD64_3re5MkaZK8rTJ-Q5Ds8yhCzmws8g&ctype=5&q=&nis=4&ved=2ahUKEwjwmtusx6-JAxUVs5UCHariGUkQ9aACKAB6BAgEEBk&adurl='"
+            >
+              <img
+                src="https://img.kwcdn.com/product/fancy/fcaf4e8b-ce87-48a6-ac0e-5d916ad41ed7.jpg?imageView2/2/w/800/q/70/format/webp"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Jogo de Dados</h3>
+              <p>
+                Jogo de Dados Educativo de Matemática de Madeira para Crianças e
+                Adultos, Jogo de Números Interativos com Telhas Flip, Brinquedo
+                de Aprendizagem Multijogador para Famílias para Idades de 3 a 6
+                Anos
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjxgOKsx6-JAxW8VEgAHSEVDF0YABAUGgJjZQ&co=1&ase=2&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sJQzBJza9CqhGrBPGWIKxcW1qehbIhd3uXjj0NC-oAf_tFDY1KIuVRoCFdMQAvD_BwE&ohost=www.google.com&cid=CAESVuD2ayRXlLsFl8NBe-D64z5T6Th5Nj4IpY4l42BkUDbaMzl5a_Ef3cR4Ha8M6CNNEG3RKXVF5eiClE2e8trgNQmI1IOWHwaSi8L-jS49-9DuCeG32rqF&sig=AOD64_0mWR7-WyniHcU7BpzTUyPuF0qV4g&ctype=5&q=&nis=4&ved=2ahUKEwjwmtusx6-JAxUVs5UCHariGUkQ9aACKAB6BQgEEL4B&adurl='"
+            >
+              <img
+                src="https://m.media-amazon.com/images/I/61ggbHivZ6L._AC_SX569_.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Sólidos Geométricos</h3>
+              <p>
+                Oferece um conjunto de 11 peças em madeira que visam desenvolver
+                o conhecimento geométrico de forma prática e educativa,
+                proporcionando um aprendizado envolvente das figuras
+                geométricas.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjxgOKsx6-JAxW8VEgAHSEVDF0YABA4GgJjZQ&co=1&ase=2&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sCd-BtqZsv9QnhiShdzJgVx4IyyMVPeQJLJkpTNW_EVGQFG0DPzB4BoCmMAQAvD_BwE&ohost=www.google.com&cid=CAESVuD2ayRXlLsFl8NBe-D64z5T6Th5Nj4IpY4l42BkUDbaMzl5a_Ef3cR4Ha8M6CNNEG3RKXVF5eiClE2e8trgNQmI1IOWHwaSi8L-jS49-9DuCeG32rqF&sig=AOD64_04ZFhfxErQYo7G8N4NALrp3ahPHw&ctype=5&q=&nis=4&ved=2ahUKEwjwmtusx6-JAxUVs5UCHariGUkQ9aACKAB6BQgEEIAC&adurl='"
+            >
+              <img
+                src="https://m.media-amazon.com/images/I/61Eq7Zo2xpL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Bastões de contagem</h3>
+              <p>
+                pode melhorar a mão das crianças, olhos, capacidade de
+                coordenação cerebral, flexibilidade dos dedos, controlar a
+                capacidade de transferência de paradigmas do bebê e itens
+                necessários para as crianças aprenderem e crescerem
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="show-categorias cat4">
+          <h2>Tecnologia e Robótica</h2>
+          <div class="shop-container">
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/educativos/steam-robo-solar-inseto'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/steam_robo_solar_inseto_87_1_70559c947957afd52ee54eb71bca0495.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Robô Solar Inseto</h3>
+              <p>
+                Com o brinquedo educativo Robô Solar Inseto as crianças poderão
+                construir um robô solar no formato de um inseto. Com painel
+                ajustável, pernas que se movimentam (rodas de rolamento) e
+                sistema de transmissão de engrenagem. Não é necessário utilizar
+                baterias, pois funciona com energia solar.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://majocacolore.com.br/produto/aranha-robo-kit-educacional-robotica/'"
+            >
+              <img
+                src="https://majocacolore.com.br/wp-content/uploads/2024/05/BENSER-BRINQUEDOS-EDUCATIVOS-ROBOS-MAJOCA-COLORE_19-530x530.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Aranha Robô</h3>
+              <p>
+                Monte uma aranha robótica realista com movimentos autênticos.
+                Duas opções de montagem, aprendizado prático e estímulo
+                criativo. Ideal para as crianças entusiastas de ciência e
+                tecnologia!
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwixlKLLva-JAxV0WUgAHZGjCCAYABASGgJjZQ&co=1&ase=2&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sBr7Og0xKOs8O_33KKlvkKn0J1lVg2nmdMe63fQL9ZssvnP_0WGGZhoCL0UQAvD_BwE&ohost=www.google.com&cid=CAESVuD2eZ0g1WYbWmHIwbAlAzCaiKxDd0wd1Th8S-TawxyLX927YNkyReMcIaW1xGij94x8_frE5rC5jexs-M50jUfXLuqExGFyYVi8HGckXy-jg-xWQGZ8&sig=AOD64_1qMxwFRQmoT3X0M8_8pV6LIyGlDQ&ctype=5&q=&nis=4&ved=2ahUKEwjU053Lva-JAxXQs5UCHW83AaMQ9aACKAB6BAgFECI&adurl='"
+            >
+              <img
+                src="https://m.media-amazon.com/images/I/61X3jgNR4iL._AC_SX569_.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Jogo LAB 42</h3>
+              <p>
+                Misture substâncias, observe as mudanças químicas e se torne um
+                grande cientista com o lab 42. São 42 experiências para você se
+                divertir em seu laboratório.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwixlKLLva-JAxV0WUgAHZGjCCAYABAZGgJjZQ&co=1&ase=2&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sBH8ZOjT28WtU-SLl-5b1Jd2Lr51t6osp4iI_ufNubXK1BKxfWKk4BoCa-IQAvD_BwE&ohost=www.google.com&cid=CAESVuD2eZ0g1WYbWmHIwbAlAzCaiKxDd0wd1Th8S-TawxyLX927YNkyReMcIaW1xGij94x8_frE5rC5jexs-M50jUfXLuqExGFyYVi8HGckXy-jg-xWQGZ8&sig=AOD64_1EXDytOjNcuYoPVOXpVFnB4MqRcA&ctype=5&q=&nis=4&ved=2ahUKEwjU053Lva-JAxXQs5UCHW83AaMQ9aACKAB6BAgFEC4&adurl='"
+            >
+              <img
+                src="https://m.media-amazon.com/images/I/61B6OdZJqeL._AC_SX569_.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Jogo Lab 80</h3>
+              <p>
+                Torne-se um verdadeiro cientista com o Lab 80. Siga as
+                instruções, misture as substâncias e faça as mais
+                impressionantes experiências.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwixlKLLva-JAxV0WUgAHZGjCCAYABAUGgJjZQ&co=1&ase=2&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sJuWqUI7Tw5Cnd8rog3uG6CrG-tr98d7eG1nRuN_4AsDhftf3yiSvhoCnuAQAvD_BwE&ohost=www.google.com&cid=CAESVuD2eZ0g1WYbWmHIwbAlAzCaiKxDd0wd1Th8S-TawxyLX927YNkyReMcIaW1xGij94x8_frE5rC5jexs-M50jUfXLuqExGFyYVi8HGckXy-jg-xWQGZ8&sig=AOD64_1GmAsZLNJWnF003x24FmLmlpTIyQ&ctype=5&q=&nis=4&ved=2ahUKEwjU053Lva-JAxXQs5UCHW83AaMQ9aACKAB6BAgFEA8&adurl='"
+            >
+              <img
+                src="https://m.media-amazon.com/images/I/71onltIVZ2L.__AC_SX300_SY300_QL70_ML2_.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Laboratório Manual do Mundo</h3>
+              <p>
+                cada uma com um cartão, onde você vê os materiais necessários,
+                os procedimentos e a explicação de como fazer. Um quarto dessas
+                experiências eles já fizeram no Youtube; então nas fichas a
+                criança vai encontrar um QR Code para acessar o vídeo do
+                experimento.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwixlKLLva-JAxV0WUgAHZGjCCAYABANGgJjZQ&co=1&ase=2&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sAxbqAqkEUICr9b0sAfVAJtkeEp4vIqnWzJb0ZbdiIWRRQbc6A1xKhoCk-wQAvD_BwE&ohost=www.google.com&cid=CAESVuD2eZ0g1WYbWmHIwbAlAzCaiKxDd0wd1Th8S-TawxyLX927YNkyReMcIaW1xGij94x8_frE5rC5jexs-M50jUfXLuqExGFyYVi8HGckXy-jg-xWQGZ8&sig=AOD64_2mcMpWBSMF4FE62MO0mKkfLkAZZA&ctype=5&q=&nis=4&ved=2ahUKEwjU053Lva-JAxXQs5UCHW83AaMQ9aACKAB6BAgFEDk&adurl='"
+            >
+              <img
+                src="https://m.media-amazon.com/images/I/71xyq-QsqJL.__AC_SX300_SY300_QL70_ML2_.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Laboratório Show da Luna</h3>
+              <p>
+                O Laboratório Criativo da Luna é um incrivél kit com mais de 24
+                experiências, para fazer muitas descobertas! As crianças poderão
+                explorar os princípios básicos fundamentais da ciência de uma
+                forma divertida, assim como acontece no desenho Show da Luna e
+                com o Laboratório Criativo em mãos ela pode aprender na prática.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwixlKLLva-JAxV0WUgAHZGjCCAYABAdGgJjZQ&co=1&ase=2&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sMaN24PvVB7mz3j_6QLavDXHiYFU3D5Ac1xhBWhD6oafqCCTWhpvcBoC9ZsQAvD_BwE&ohost=www.google.com&cid=CAESVuD2eZ0g1WYbWmHIwbAlAzCaiKxDd0wd1Th8S-TawxyLX927YNkyReMcIaW1xGij94x8_frE5rC5jexs-M50jUfXLuqExGFyYVi8HGckXy-jg-xWQGZ8&sig=AOD64_3whSVDtQSn8XffpwBWdKVJL3S-4Q&ctype=5&q=&nis=4&ved=2ahUKEwjU053Lva-JAxXQs5UCHW83AaMQ9aACKAB6BQgFEJYB&adurl='"
+            >
+              <img
+                src="https://img.elo7.com.br/product/685x685/400C146/kit-jogos-educativos-da-tabela-periodica-presentes.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Kit Jogos Educativos da Tabela Periódica</h3>
+              <p>
+                Os Jogos da Tabela Periódica dos Elementos químicos além de
+                serem um grande estimulante cognitivo, são a opção perfeita para
+                presentear professores, formandos estudantes e aquela pessoa que
+                é apaixonada por essa ciência tão linda e tão fundamental para a
+                humanidade
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="show-categorias cat5">
+          <h2>Espaço e Astronomia</h2>
+          <div class="shop-container">
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.minicientista.com.br/categorias/cientificos-e-robotica/ciencias/kit-planetario-sistema-solar'"
+            >
+              <img
+                src="https://images.tcdn.com.br/img/img_prod/773388/kit_planetario_sistema_solar_1981_1_20211110184207.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Kit Planetário Sistema Solar</h3>
+              <p>
+                Pinte os planetas com cores vibrantes e texturas que imitam suas
+                superfícies: o azul profundo dos oceanos da Terra, as
+                tempestades de Júpiter e os anéis majestosos de Saturno. Use
+                tintas fosforescentes para criar detalhes que brilhem no escuro!
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://majocacolore.com.br/produto/telescopio-infantil/'"
+            >
+              <img
+                src="https://majocacolore.com.br/wp-content/uploads/2021/10/MARIO-BRINQUEDOS_9-530x530.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Telescópio Infantil</h3>
+              <p>
+                Desperte seu Conhecimento: Quantos planetas existem no sistema
+                solar?Que estrelas e planetas consegue observar a partir da
+                Terra?Qual o maior planeta?Para que são usados os telescópios?
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://majocacolore.com.br/produto/cosmic-rocket/'"
+            >
+              <img
+                src="https://majocacolore.com.br/wp-content/uploads/2021/07/KOSMIKA_1-530x530.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>Cosmic Rocket</h3>
+              <p>
+                Descubra o fascinante mundo da ciência! Kit de lançamento de
+                foguete para toda a família, com instruções detalhadas e alcance
+                de até 15 metros.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi45tKByq-JAxXMYUgAHUtvMaMYABAeGgJjZQ&co=1&ase=2&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sNOtQCW1i7JuotdUX4um19PvGyV1Oz-PrDavNxV38Dk_s2LjaJi1dxoCqBsQAvD_BwE&ohost=www.google.com&cid=CAESVuD2yMToiYWLFaUUiD9nslyBNIuKJz3Q9-Ma1z2ifPhCA4OnkK_RXVV2YayclQ5lQVcyGhNRd0M6-iu4fqyV90idqWODB1dy3WTU8nBZzrS1YEDZxewb&sig=AOD64_2mLCfEdiSOlBRPKDNZB_yvMCfLaw&ctype=5&q=&nis=4&ved=2ahUKEwicgc6Byq-JAxXsrZUCHaDbBBoQww8oAnoECAYQLg&adurl='"
+            >
+              <img
+                src="https://m.media-amazon.com/images/I/71lhVag75AL._AC_SX569_.jpg"
+                alt=""
+                class="img-shopCard"
+              />
+              <h3>LEGO® Creator Ônibus Espacial</h3>
+              <p>
+                Aventureiros espaciais maiores de 6 anos podem curtir a ação
+                intergaláctica emocionante com este conjunto LEGO® Creator 3em1
+                Ônibus Espacial (31134). Ele contém um Ônibus Espacial com
+                escotilha que abre contendo um satélite em um braço extensível.
+              </p>
+            </div>
+
+            <div
+              class="shop-card"
+              onclick="window.location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi45tKByq-JAxXMYUgAHUtvMaMYABAqGgJjZQ&co=1&ase=2&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sBU9680h7aL7DPwHw9M6fcSZEndNmZ1_GF3QA3uP1-Rxbfnf6vbNyRoCCtUQAvD_BwE&ohost=www.google.com&cid=CAESVuD2yMToiYWLFaUUiD9nslyBNIuKJz3Q9-Ma1z2ifPhCA4OnkK_RXVV2YayclQ5lQVcyGhNRd0M6-iu4fqyV90idqWODB1dy3WTU8nBZzrS1YEDZxewb&sig=AOD64_39p2LGMezZu-K6wifi9VJ5OVxN2g&ctype=5&q=&nis=4&ved=2ahUKEwicgc6Byq-JAxXsrZUCHaDbBBoQ9aACKAB6BAgGEHY&adurl='"
+            >
+              <img src="https://geekfanaticos.fbitsstatic.net/img/p/telescopio-hubble-kit-de-montar-de-metal-metal-earth-fascinations-73518/260006.jpg?w=540&h=540&v=no-change&qs=ignore" alt="" class="img-shopCard" />
+              <h3>Telescópio Hubble</h3>
+              <p>
+                O Telescópio Hubble foi lançado em órbita baixa da Terra em 24 de Abril de 1990, operando fora da área de distorção da atmosfera terrestre, o que permitiu imagens visíveis a luz de extrema alta-resolução.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer>Criando por: Rafaela, Stefanny Sayuri, Stephany dos Santos e Isabele</footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

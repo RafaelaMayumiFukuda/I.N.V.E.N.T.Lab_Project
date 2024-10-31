@@ -1,0 +1,124 @@
+body {
+  
+  font-family: arial;
+  font-size: 20px;
+  color: black;
+  background-color: #b098c1; 
+}
+
+main {
+  
+  gap: 30px; 
+  align-items: center;
+  padding: 20px; 
+  height: 75dvh;
+  background: url(../img/swee.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  
+  background-color: #8d69a2;
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  padding: 20px; 
+  gap: 150px; 
+  justify-content: center; 
+  filter: drop-shadow(0px 5px 10px #8d69a2); 
+  height: 20dvh;
+}
+
+header ul {
+  
+  width: 50dvw;
+  justify-content: center;
+  display: flex;
+  align-items: center; 
+}
+
+header button {
+  
+  text-transform: uppercase;
+}
+
+.btn-header {
+  
+  width: 150px;
+  height: 60px;
+  border: none;
+  background-color: #ffffff;
+  color: black;
+  transition: ease-in-out 0.3s; 
+  filter: drop-shadow(3px 3px 1px #765186); 
+}
+
+.btn-header:hover {
+  
+  color: black;
+  background-color: #c1bdda;
+  transition: ease-in-out 0.1s; 
+  border: 1px solid white;
+}
+
+.btn-header:active {
+  
+  color: white;
+  background-color: #ad8bbd;
+  transform: translateY(4px); 
+  filter: drop-shadow(0px 0px 0px #ed961c00); 
+}
+
+.icon {
+  
+  order: 2;
+  width: 80px;
+  height: 80px;
+  border-radius: 30%; 
+  object-fit: cover;
+  object-position: center;
+  background-color: aqua;
+  filter: drop-shadow(0px 0px 10px #ad8bbd); 
+}
+
+li {
+  
+  list-style-type: none;
+}
+footer {
+  height: 5dvh;
+  background-color: #e5fca8; 
+}
+section {
+  background-color: rgba(255, 255, 255, 0.808);
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  backdrop-filter: blur(10px);
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+section p a {
+  text-decoration: underline;
+  color: blue;
+}
+iframe {
+  border-radius: 20px;
+  align-self: center;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
